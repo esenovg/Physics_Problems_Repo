@@ -19,8 +19,10 @@ $$
 ### Conservation of kinetic energy
 
 $$
+\begin{aligned}
 \frac{1}{2} m_1 u_1^2 + \frac{1}{2} m_2 u_2^2
 =
+\begin{aligned}
 \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2
 $$
 
