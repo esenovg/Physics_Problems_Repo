@@ -21,9 +21,9 @@ $$
 $$
 \begin{aligned}
 \frac{1}{2} m_1 u_1^2 + \frac{1}{2} m_2 u_2^2
-=
-\begin{aligned}
+&=
 \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2
+\end{aligned}
 $$
 
 Multiplying the second equation by $$2$$ gives
@@ -295,9 +295,11 @@ m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2
 $$
 
 $$
+\begin{aligned}
 \frac{1}{2} m_1 u_1^2 + \frac{1}{2} m_2 u_2^2
-=
+&=
 \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2
+\end{aligned}
 $$
 
 and the velocities after collision are
