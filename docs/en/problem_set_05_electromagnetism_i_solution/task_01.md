@@ -46,9 +46,7 @@ $$
 Substituting numerical values gives
 
 $$
-V(0.3)
-=
-8.99 \cdot 10^9
+V(0.3) = 8.99 \cdot 10^9
 \cdot
 \frac{4.0 \cdot 10^{-6}}{0.3}.
 $$
