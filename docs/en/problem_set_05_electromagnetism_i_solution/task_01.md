@@ -61,10 +61,8 @@ $$
 So
 
 $$
-V(0.3)
-=
-\frac{3.596 \cdot 10^4}{0.3}
-=
+V(0.3) =
+\frac{3.596 \cdot 10^4}{0.3} =
 1.1987 \cdot 10^5\ \mathrm{V}.
 $$
 
@@ -103,8 +101,7 @@ $$
 we get
 
 $$
-V(0.6)
-=
+V(0.6) =
 8.99 \cdot 10^9
 \cdot
 \frac{4.0 \cdot 10^{-6}}{0.6}.
@@ -113,10 +110,8 @@ $$
 Therefore,
 
 $$
-V(0.6)
-=
-\frac{3.596 \cdot 10^4}{0.6}
-=
+V(0.6) =
+\frac{3.596 \cdot 10^4}{0.6} =
 5.993 \cdot 10^4\ \mathrm{V}.
 $$
 
@@ -139,16 +134,14 @@ $$
 The potential difference from $$0.3\,\mathrm{m}$$ to $$0.6\,\mathrm{m}$$ is
 
 $$
-\Delta V
-=
+\Delta V =
 V(0.6) - V(0.3).
 $$
 
 Substituting values,
 
 $$
-\Delta V
-=
+\Delta V =
 5.993 \cdot 10^4
 -
 1.1987 \cdot 10^5.
@@ -157,8 +150,7 @@ $$
 Thus,
 
 $$
-\Delta V
-=
+\Delta V =
 -5.993 \cdot 10^4\ \mathrm{V}.
 $$
 
@@ -309,11 +301,10 @@ $$
 V(r) = k \frac{q}{r}.
 $$
 
-Differentiate with respect to $$r$$:
+Differentiate with respect to $$r:$$
 
 $$
-\frac{dV}{dr}
-=
+\frac{dV}{dr} =
 \frac{d}{dr}
 \left(
 k \frac{q}{r}
@@ -326,26 +317,22 @@ $$
 \frac{d}{dr}
 \left(
 \frac{1}{r}
-\right)
-=
+\right) =
 -\frac{1}{r^2},
 $$
 
 we obtain
 
 $$
-\frac{dV}{dr}
-=
+\frac{dV}{dr} =
 -k \frac{q}{r^2}.
 $$
 
 Therefore,
 
 $$
-E_r
-=
--\frac{dV}{dr}
-=
+E_r =
+-\frac{dV}{dr} =
 -\left(
 -k \frac{q}{r^2}
 \right).
@@ -361,8 +348,7 @@ Thus, the electric field vector is
 
 $$
 \boxed{
-\vec E(r)
-=
+\vec E(r) =
 k \frac{q}{r^2}\hat r.
 }
 $$
@@ -376,8 +362,7 @@ $$
 we have
 
 $$
-E(0.3)
-=
+E(0.3) =
 8.99 \cdot 10^9
 \cdot
 \frac{4.0 \cdot 10^{-6}}{(0.3)^2}.
@@ -392,16 +377,14 @@ $$
 we get
 
 $$
-E(0.3)
-=
+E(0.3) =
 \frac{3.596 \cdot 10^4}{0.09}.
 $$
 
 Therefore,
 
 $$
-E(0.3)
-=
+E(0.3) =
 3.996 \cdot 10^5\ \mathrm{N/C}.
 $$
 
@@ -424,8 +407,7 @@ $$
 we have
 
 $$
-E(0.6)
-=
+E(0.6) =
 8.99 \cdot 10^9
 \cdot
 \frac{4.0 \cdot 10^{-6}}{(0.6)^2}.
@@ -440,16 +422,14 @@ $$
 we get
 
 $$
-E(0.6)
-=
+E(0.6) =
 \frac{3.596 \cdot 10^4}{0.36}.
 $$
 
 Therefore,
 
 $$
-E(0.6)
-=
+E(0.6) =
 9.989 \cdot 10^4\ \mathrm{N/C}.
 $$
 
@@ -470,18 +450,15 @@ $$
 Coulomb's law gives the electric field of a point charge directly as
 
 $$
-\vec E(r)
-=
+\vec E(r) =
 k \frac{q}{r^2}\hat r.
 $$
 
 From the potential, we derived
 
 $$
-\vec E(r)
-=
--\nabla V
-=
+\vec E(r) =
+-\nabla V =
 k \frac{q}{r^2}\hat r.
 $$
 
@@ -489,8 +466,7 @@ These two results are identical:
 
 $$
 \boxed{
-\vec E_{\mathrm{from\ potential}}
-=
+\vec E_{\mathrm{from\ potential}} =
 \vec E_{\mathrm{from\ Coulomb}}
 }
 $$
@@ -545,8 +521,7 @@ The electric field from the derivative of the potential is
 
 $$
 \boxed{
-\vec E(r)
-=
+\vec E(r) =
 k \frac{q}{r^2}\hat r.
 }
 $$
