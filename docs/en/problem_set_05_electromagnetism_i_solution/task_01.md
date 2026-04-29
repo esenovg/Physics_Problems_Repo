@@ -1,567 +1,414 @@
 # Problem 1 – Potential and energy
 
-We consider a point charge
+We are given a point charge:
 
 $$
-q = 4\ \mu\mathrm{C} = 4.0 \cdot 10^{-6}\ \mathrm{C}.
+q = 4\ \mu\mathrm{C} = 4.0 \cdot 10^{-6}\ \mathrm{C}
 $$
 
-The test charge is
+The test charge is:
 
 $$
-q_0 = 2\ \mu\mathrm{C} = 2.0 \cdot 10^{-6}\ \mathrm{C}.
+q_0 = 2\ \mu\mathrm{C} = 2.0 \cdot 10^{-6}\ \mathrm{C}
 $$
 
-We use the electrostatic constant
+The electrostatic constant is:
 
 $$
-k = \frac{1}{4\pi \varepsilon_0}
-\approx 8.99 \cdot 10^9\ \mathrm{N\,m^2/C^2}.
+k = \frac{1}{4\pi \varepsilon_0} \approx 8.99 \cdot 10^9\ \mathrm{N\,m^2/C^2}
 $$
 
-For a point charge, the electric potential at distance $$r$$ is
+For a point charge, the electric potential is:
 
 $$
-V(r) = k \frac{q}{r}.
+V(r) = k\frac{q}{r}
 $$
 
-The zero of potential is assumed to be at infinity.
-
----
-
-## 1. Potential at $$r = 0.3\,\mathrm{m}$$
-
-We substitute
+We assume that the potential is zero at infinity:
 
 $$
-r = 0.3\ \mathrm{m}.
-$$
-
-Therefore,
-
-$$
-V(0.3) = k \frac{q}{0.3}
-$$
-
-Substituting numerical values gives
-
-$$
-V(0.3)
-=
-8.99 \cdot 10^9
-\cdot
-\frac{4.0 \cdot 10^{-6}}{0.3}.
-$$
-
-First calculate the numerator:
-
-$$
-8.99 \cdot 10^9 \cdot 4.0 \cdot 10^{-6}
-=
-3.596 \cdot 10^4.
-$$
-
-So
-
-$$
-V(0.3)
-=
-\frac{3.596 \cdot 10^4}{0.3}
-=
-1.1987 \cdot 10^5\ \mathrm{V}.
-$$
-
-Thus,
-
-$$
-\boxed{
-V(0.3) \approx 1.20 \cdot 10^5\ \mathrm{V}
-}
-$$
-
-or approximately
-
-$$
-\boxed{
-V(0.3) \approx 120\ \mathrm{kV}.
-}
+V(\infty) = 0
 $$
 
 ---
 
-## 2. Potential difference between $$0.3\,\mathrm{m}$$ and $$0.6\,\mathrm{m}$$
+## 1. Potential at distance \( r = 0.3\,\mathrm{m} \)
 
-We calculate the potential at
-
-$$
-r = 0.6\ \mathrm{m}.
-$$
-
-Using
+The formula for the electric potential of a point charge is:
 
 $$
-V(r) = k \frac{q}{r},
+V(r) = k\frac{q}{r}
 $$
 
-we get
+For:
 
 $$
+r = 0.3\ \mathrm{m}
+$$
+
+we get:
+
+$$
+\begin{aligned}
+V(0.3)
+&= k\frac{q}{0.3} \\
+&= 8.99 \cdot 10^9 \cdot \frac{4.0 \cdot 10^{-6}}{0.3} \\
+&= \frac{3.596 \cdot 10^4}{0.3} \\
+&= 1.1987 \cdot 10^5\ \mathrm{V}
+\end{aligned}
+$$
+
+Therefore:
+
+$$
+\boxed{V(0.3) \approx 1.20 \cdot 10^5\ \mathrm{V}}
+$$
+
+or:
+
+$$
+\boxed{V(0.3) \approx 120\ \mathrm{kV}}
+$$
+
+---
+
+## 2. Potential difference between \( 0.3\,\mathrm{m} \) and \( 0.6\,\mathrm{m} \)
+
+First, calculate the potential at:
+
+$$
+r = 0.6\ \mathrm{m}
+$$
+
+Using:
+
+$$
+V(r) = k\frac{q}{r}
+$$
+
+we get:
+
+$$
+\begin{aligned}
 V(0.6)
-=
-8.99 \cdot 10^9
-\cdot
-\frac{4.0 \cdot 10^{-6}}{0.6}.
+&= k\frac{q}{0.6} \\
+&= 8.99 \cdot 10^9 \cdot \frac{4.0 \cdot 10^{-6}}{0.6} \\
+&= \frac{3.596 \cdot 10^4}{0.6} \\
+&= 5.993 \cdot 10^4\ \mathrm{V}
+\end{aligned}
 $$
 
-Therefore,
+Therefore:
 
 $$
-V(0.6)
-=
-\frac{3.596 \cdot 10^4}{0.6}
-=
-5.993 \cdot 10^4\ \mathrm{V}.
+\boxed{V(0.6) \approx 5.99 \cdot 10^4\ \mathrm{V}}
 $$
 
-So
+or:
 
 $$
-\boxed{
-V(0.6) \approx 5.99 \cdot 10^4\ \mathrm{V}
-}
+\boxed{V(0.6) \approx 59.9\ \mathrm{kV}}
 $$
 
-or
+The potential difference for motion from \( 0.3\,\mathrm{m} \) to \( 0.6\,\mathrm{m} \) is:
 
 $$
-\boxed{
-V(0.6) \approx 59.9\ \mathrm{kV}.
-}
-$$
-
-The potential difference from $$0.3\,\mathrm{m}$$ to $$0.6\,\mathrm{m}$$ is
-
-$$
-\Delta V
-=
-V(0.6) - V(0.3).
-$$
-
-Substituting values,
-
-$$
-\Delta V
-=
-5.993 \cdot 10^4
--
-1.1987 \cdot 10^5.
-$$
-
-Thus,
-
-$$
-\Delta V
-=
--5.993 \cdot 10^4\ \mathrm{V}.
-$$
-
-Therefore,
-
-$$
-\boxed{
 \Delta V = V(0.6) - V(0.3)
-\approx -5.99 \cdot 10^4\ \mathrm{V}
-}
 $$
 
-or
+Substituting the values:
 
 $$
-\boxed{
-\Delta V \approx -59.9\ \mathrm{kV}.
-}
+\begin{aligned}
+\Delta V
+&= 5.993 \cdot 10^4 - 1.1987 \cdot 10^5 \\
+&= -5.993 \cdot 10^4\ \mathrm{V}
+\end{aligned}
 $$
 
-The negative sign means that the potential decreases when we move farther away from the positive point charge.
-
-If we ask for the magnitude of the potential difference, then
+Therefore:
 
 $$
-\boxed{
-|\Delta V| \approx 5.99 \cdot 10^4\ \mathrm{V}.
-}
+\boxed{\Delta V \approx -5.99 \cdot 10^4\ \mathrm{V}}
+$$
+
+or:
+
+$$
+\boxed{\Delta V \approx -59.9\ \mathrm{kV}}
+$$
+
+The negative sign means that the potential decreases when we move farther away from a positive point charge.
+
+The magnitude of the potential difference is:
+
+$$
+\boxed{|\Delta V| \approx 5.99 \cdot 10^4\ \mathrm{V}}
 $$
 
 ---
 
-## 3. Work done to move a test charge $$q_0 = 2\,\mu\mathrm{C}$$
+## 3. Work done to move the test charge
 
-The change in electric potential energy is
+The change in electric potential energy is:
 
 $$
-\Delta U = q_0 \Delta V.
+\Delta U = q_0 \Delta V
 $$
 
-Using
+Substitute:
 
 $$
 q_0 = 2.0 \cdot 10^{-6}\ \mathrm{C}
 $$
 
-and
+and:
 
 $$
-\Delta V = -5.993 \cdot 10^4\ \mathrm{V},
+\Delta V = -5.993 \cdot 10^4\ \mathrm{V}
 $$
 
-we get
+Then:
 
 $$
+\begin{aligned}
 \Delta U
-=
-2.0 \cdot 10^{-6}
-\cdot
-\left(-5.993 \cdot 10^4\right).
+&= q_0 \Delta V \\
+&= \left(2.0 \cdot 10^{-6}\right)\left(-5.993 \cdot 10^4\right) \\
+&= -1.1986 \cdot 10^{-1}\ \mathrm{J} \\
+&\approx -0.120\ \mathrm{J}
+\end{aligned}
 $$
 
-Therefore,
+Therefore, the change in potential energy is:
 
 $$
-\Delta U
-=
--1.1986 \cdot 10^{-1}\ \mathrm{J}.
-$$
-
-So
-
-$$
-\boxed{
-\Delta U \approx -0.120\ \mathrm{J}.
-}
-$$
-
-This is the change in potential energy when the positive test charge moves from
-
-$$
-0.3\ \mathrm{m}
-$$
-
-to
-
-$$
-0.6\ \mathrm{m}.
+\boxed{\Delta U \approx -0.120\ \mathrm{J}}
 $$
 
 The work done by the electric field is the negative of the change in potential energy:
 
 $$
-W_{\mathrm{field}} = -\Delta U.
+W_{\mathrm{field}} = -\Delta U
 $$
 
-Thus,
+Therefore:
 
 $$
+\begin{aligned}
 W_{\mathrm{field}}
-=
-0.120\ \mathrm{J}.
+&= -\left(-0.120\ \mathrm{J}\right) \\
+&= 0.120\ \mathrm{J}
+\end{aligned}
 $$
 
-So the electric field does positive work:
+So:
 
 $$
-\boxed{
-W_{\mathrm{field}} \approx 0.120\ \mathrm{J}.
-}
+\boxed{W_{\mathrm{field}} \approx 0.120\ \mathrm{J}}
 $$
 
-If the charge is moved slowly by an external force, then the external work is
+If the charge is moved slowly by an external force, then the external work is:
 
 $$
-W_{\mathrm{external}} = \Delta U.
+W_{\mathrm{external}} = \Delta U
 $$
 
-Therefore,
+Therefore:
 
 $$
-\boxed{
-W_{\mathrm{external}} \approx -0.120\ \mathrm{J}.
-}
+\boxed{W_{\mathrm{external}} \approx -0.120\ \mathrm{J}}
 $$
 
-The external work is negative because the positive test charge naturally moves away from the positive source charge.
+This result is negative because the positive test charge naturally moves away from the positive source charge. The electric field helps the motion from \( 0.3\,\mathrm{m} \) to \( 0.6\,\mathrm{m} \).
 
 ---
 
 ## 4. Electric field intensity from the derivative of the potential
 
-The electric field is related to the potential by
+The electric field is related to the electric potential by:
 
 $$
-\vec E = - \nabla V.
+\vec E = -\nabla V
 $$
 
-Because this problem is spherically symmetric, the potential depends only on $$r$$, so
+Because the point charge has spherical symmetry, the potential depends only on the distance \( r \). Therefore:
 
 $$
-E_r = - \frac{dV}{dr}.
+E_r = -\frac{dV}{dr}
 $$
 
-We know that
+The potential of a point charge is:
 
 $$
-V(r) = k \frac{q}{r}.
+V(r) = k\frac{q}{r}
 $$
 
-Differentiate with respect to $$r$$:
+Differentiate with respect to \( r \):
 
 $$
+\begin{aligned}
 \frac{dV}{dr}
-=
-\frac{d}{dr}
-\left(
-k \frac{q}{r}
-\right).
+&= \frac{d}{dr}\left(k\frac{q}{r}\right) \\
+&= kq\frac{d}{dr}\left(r^{-1}\right) \\
+&= kq\left(-r^{-2}\right) \\
+&= -k\frac{q}{r^2}
+\end{aligned}
 $$
 
-Since
+Therefore:
 
 $$
-\frac{d}{dr}
-\left(
-\frac{1}{r}
-\right)
-=
--\frac{1}{r^2},
-$$
-
-we obtain
-
-$$
-\frac{dV}{dr}
-=
--k \frac{q}{r^2}.
-$$
-
-Therefore,
-
-$$
+\begin{aligned}
 E_r
-=
--\frac{dV}{dr}
-=
--\left(
--k \frac{q}{r^2}
-\right).
+&= -\frac{dV}{dr} \\
+&= -\left(-k\frac{q}{r^2}\right) \\
+&= k\frac{q}{r^2}
+\end{aligned}
 $$
 
-So
+So the electric field vector is:
 
 $$
-E_r = k \frac{q}{r^2}.
+\boxed{\vec E(r) = k\frac{q}{r^2}\hat r}
 $$
 
-Thus, the electric field vector is
+Because \( q > 0 \), the field points radially outward from the charge.
+
+At \( r = 0.3\,\mathrm{m} \):
 
 $$
-\boxed{
-\vec E(r)
-=
-k \frac{q}{r^2}\hat r.
-}
-$$
-
-At
-
-$$
-r = 0.3\ \mathrm{m},
-$$
-
-we have
-
-$$
+\begin{aligned}
 E(0.3)
-=
-8.99 \cdot 10^9
-\cdot
-\frac{4.0 \cdot 10^{-6}}{(0.3)^2}.
+&= k\frac{q}{(0.3)^2} \\
+&= 8.99 \cdot 10^9 \cdot \frac{4.0 \cdot 10^{-6}}{(0.3)^2} \\
+&= 8.99 \cdot 10^9 \cdot \frac{4.0 \cdot 10^{-6}}{0.09} \\
+&= \frac{3.596 \cdot 10^4}{0.09} \\
+&= 3.996 \cdot 10^5\ \mathrm{N/C}
+\end{aligned}
 $$
 
-Since
+Therefore:
 
 $$
-(0.3)^2 = 0.09,
+\boxed{E(0.3) \approx 4.00 \cdot 10^5\ \mathrm{N/C}}
 $$
 
-we get
+At \( r = 0.6\,\mathrm{m} \):
 
 $$
-E(0.3)
-=
-\frac{3.596 \cdot 10^4}{0.09}.
-$$
-
-Therefore,
-
-$$
-E(0.3)
-=
-3.996 \cdot 10^5\ \mathrm{N/C}.
-$$
-
-So
-
-$$
-\boxed{
-E(0.3)
-\approx
-4.00 \cdot 10^5\ \mathrm{N/C}.
-}
-$$
-
-At
-
-$$
-r = 0.6\ \mathrm{m},
-$$
-
-we have
-
-$$
+\begin{aligned}
 E(0.6)
-=
-8.99 \cdot 10^9
-\cdot
-\frac{4.0 \cdot 10^{-6}}{(0.6)^2}.
+&= k\frac{q}{(0.6)^2} \\
+&= 8.99 \cdot 10^9 \cdot \frac{4.0 \cdot 10^{-6}}{(0.6)^2} \\
+&= 8.99 \cdot 10^9 \cdot \frac{4.0 \cdot 10^{-6}}{0.36} \\
+&= \frac{3.596 \cdot 10^4}{0.36} \\
+&= 9.989 \cdot 10^4\ \mathrm{N/C}
+\end{aligned}
 $$
 
-Since
+Therefore:
 
 $$
-(0.6)^2 = 0.36,
-$$
-
-we get
-
-$$
-E(0.6)
-=
-\frac{3.596 \cdot 10^4}{0.36}.
-$$
-
-Therefore,
-
-$$
-E(0.6)
-=
-9.989 \cdot 10^4\ \mathrm{N/C}.
-$$
-
-So
-
-$$
-\boxed{
-E(0.6)
-\approx
-9.99 \cdot 10^4\ \mathrm{N/C}.
-}
+\boxed{E(0.6) \approx 9.99 \cdot 10^4\ \mathrm{N/C}}
 $$
 
 ---
 
 ## 5. Comparison with Coulomb's law
 
-Coulomb's law gives the electric field of a point charge directly as
+From the derivative of the potential, we found:
 
 $$
-\vec E(r)
-=
-k \frac{q}{r^2}\hat r.
+\vec E(r) = k\frac{q}{r^2}\hat r
 $$
 
-From the potential, we derived
+Coulomb's law gives the electric field of a point charge directly as:
 
 $$
-\vec E(r)
-=
--\nabla V
-=
-k \frac{q}{r^2}\hat r.
+\vec E(r) = k\frac{q}{r^2}\hat r
 $$
 
-These two results are identical:
+Therefore:
 
 $$
-\boxed{
-\vec E_{\mathrm{from\ potential}}
-=
-\vec E_{\mathrm{from\ Coulomb}}
-}
+\boxed{\vec E_{\mathrm{from\ potential}} = \vec E_{\mathrm{from\ Coulomb}}}
 $$
 
-Therefore, the electric field obtained from the derivative of the potential agrees with Coulomb's law.
+The result obtained from the potential agrees exactly with Coulomb's law.
 
-Because the charge is positive,
+Since the charge is positive:
 
 $$
-q > 0,
+q > 0
 $$
 
-the electric field points radially outward from the charge.
+the electric field points away from the charge:
+
+$$
+\boxed{\text{The electric field is directed radially outward.}}
+$$
 
 ---
 
 ## Final answers
 
-The potential at $$0.3\,\mathrm{m}$$ is
+Potential at \( r = 0.3\,\mathrm{m} \):
 
 $$
-\boxed{
-V(0.3) \approx 1.20 \cdot 10^5\ \mathrm{V}.
-}
+\boxed{V(0.3) \approx 1.20 \cdot 10^5\ \mathrm{V}}
 $$
 
-The potential difference for motion from $$0.3\,\mathrm{m}$$ to $$0.6\,\mathrm{m}$$ is
+Potential at \( r = 0.6\,\mathrm{m} \):
 
 $$
-\boxed{
-\Delta V \approx -5.99 \cdot 10^4\ \mathrm{V}.
-}
+\boxed{V(0.6) \approx 5.99 \cdot 10^4\ \mathrm{V}}
 $$
 
-The work done by the electric field is
+Potential difference from \( 0.3\,\mathrm{m} \) to \( 0.6\,\mathrm{m} \):
 
 $$
-\boxed{
-W_{\mathrm{field}} \approx 0.120\ \mathrm{J}.
-}
+\boxed{\Delta V \approx -5.99 \cdot 10^4\ \mathrm{V}}
 $$
 
-The external work for slow motion is
+Change in potential energy of the test charge:
 
 $$
-\boxed{
-W_{\mathrm{external}} \approx -0.120\ \mathrm{J}.
-}
+\boxed{\Delta U \approx -0.120\ \mathrm{J}}
 $$
 
-The electric field from the derivative of the potential is
+Work done by the electric field:
 
 $$
-\boxed{
-\vec E(r)
-=
-k \frac{q}{r^2}\hat r.
-}
+\boxed{W_{\mathrm{field}} \approx 0.120\ \mathrm{J}}
 $$
 
-At $$r = 0.3\,\mathrm{m}$$,
+External work for slow motion:
 
 $$
-\boxed{
-E(0.3)
-\approx
-4.00 \cdot 10^5\ \mathrm{N/C}.
-}
+\boxed{W_{\mathrm{external}} \approx -0.120\ \mathrm{J}}
 $$
 
-This agrees with Coulomb's law.
+Electric field from the potential:
+
+$$
+\boxed{\vec E(r) = k\frac{q}{r^2}\hat r}
+$$
+
+Electric field at \( r = 0.3\,\mathrm{m} \):
+
+$$
+\boxed{E(0.3) \approx 4.00 \cdot 10^5\ \mathrm{N/C}}
+$$
+
+Electric field at \( r = 0.6\,\mathrm{m} \):
+
+$$
+\boxed{E(0.6) \approx 9.99 \cdot 10^4\ \mathrm{N/C}}
+$$
+
+The field from the derivative of the potential agrees with Coulomb's law:
+
+$$
+\boxed{\vec E_{\mathrm{from\ potential}} = \vec E_{\mathrm{from\ Coulomb}}}
+$$
