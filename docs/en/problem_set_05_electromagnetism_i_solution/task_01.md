@@ -40,9 +40,7 @@ $$
 Therefore,
 
 $$
-V(0.3)
-=
-k \frac{q}{0.3}.
+V(0.3) = k \frac{q}{0.3}
 $$
 
 Substituting numerical values gives
