@@ -247,8 +247,7 @@ $$
 Thus,
 
 $$
-W_{\mathrm{field}}
-=
+W_{\mathrm{field}} =
 0.120\ \mathrm{J}.
 $$
 
