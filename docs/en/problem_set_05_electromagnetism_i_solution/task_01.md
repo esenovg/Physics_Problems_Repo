@@ -142,8 +142,7 @@ Substituting values,
 
 $$
 \Delta V =
-5.993 \cdot 10^4
--
+5.993 \cdot 10^4 -
 1.1987 \cdot 10^5.
 $$
 
