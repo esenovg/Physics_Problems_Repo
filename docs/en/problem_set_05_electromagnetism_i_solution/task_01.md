@@ -229,13 +229,7 @@ $$
 This is the change in potential energy when the positive test charge moves from
 
 $$
-0.3\ \mathrm{m}
-$$
-
-to
-
-$$
-0.6\ \mathrm{m}.
+0.3\ \mathrm{m}\ to\ 0.6\ \mathrm{m}.
 $$
 
 The work done by the electric field is the negative of the change in potential energy:
