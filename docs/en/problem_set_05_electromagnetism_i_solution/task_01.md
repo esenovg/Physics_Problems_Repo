@@ -54,8 +54,7 @@ $$
 First calculate the numerator:
 
 $$
-8.99 \cdot 10^9 \cdot 4.0 \cdot 10^{-6}
-=
+8.99 \cdot 10^9 \cdot 4.0 \cdot 10^{-6} =
 3.596 \cdot 10^4.
 $$
 
