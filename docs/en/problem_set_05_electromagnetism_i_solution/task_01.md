@@ -205,8 +205,7 @@ $$
 we get
 
 $$
-\Delta U
-=
+\Delta U =
 2.0 \cdot 10^{-6}
 \cdot
 \left(-5.993 \cdot 10^4\right).
@@ -215,8 +214,7 @@ $$
 Therefore,
 
 $$
-\Delta U
-=
+\Delta U =
 -1.1986 \cdot 10^{-1}\ \mathrm{J}.
 $$
 
